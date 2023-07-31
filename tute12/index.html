@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <form method="post" action="submit.php">
+    <label for="first_name">First Name:</label>
+    <input type="text" name="first_name" required><br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" name="last_name" required><br>
+
+    <label for="user_name">User Name:</label>
+    <input type="text" name="user_name" required><br>
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" required><br>
+
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" value="Male" required>Male
+    <input type="radio" name="gender" value="Female" required>Female<br>
+
+    <label for="academic_year">Academic Year:</label>
+    <input type="text" name="academic_year" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br>
+
+    <label for="phone">Phone No:</label>
+    <input type="tel" name="phone" required><br>
+
+    <input type="submit" name="submit" value="Submit">
+  </form>
+</body>
+</html>
